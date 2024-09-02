@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Layout</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        /* Header */
+        .header-container {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        /* Navigation Bar */
+        .navigation-bar {
+            background-color: #444;
+            overflow: hidden;
+        }
+
+        .navigation-bar ul {
+            list-style: none;
+            text-align: center;
+        }
+
+        .navigation-bar li {
+            display: inline;
+            padding: 14px 20px;
+        }
+
+        .navigation-bar a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .navigation-bar a:hover {
+            background-color: #555;
+        }
+
+        /* Content Wrapper */
+        .content-wrapper {
+            display: flex;
+            margin: 20px;
+        }
+
+        /* Main Content */
+        .main-content {
+            flex: 3;
+            background-color: #fff;
+            padding: 20px;
+            margin-right: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            flex: 1;
+            background-color: #f4f4f4;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header-container">
+        <h1>My Website</h1>
+    </header>
+
+    <nav class="navigation-bar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="content-wrapper">
+        <main class="main-content">
+            <h2>Welcome to My Website</h2>
+            <p>This is the main content area where information is displayed.</p>
+        </main>
+
+        <aside class="sidebar">
+            <h3>Sidebar</h3>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
