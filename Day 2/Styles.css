@@ -6,7 +6,7 @@ header {
     text-align: center;
 }
 
-h1 {
+h1,h2 {
     color:#0040df
 }
 
@@ -15,13 +15,35 @@ nav {
     text-align: center;
 }
 
-.ull, .lii {
+nav ul li{
     list-style-type: none;
     color: whitesmoke;
     display:inline-block;
     padding: 10px 20px;
     text-align: center;
 
+
+}
+
+nav ul li a:hover {
+    background-color:#333;
+    color:#fff;
+    border-radius:10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color:white;
+}
+
+section {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
 }
 .email{
     color:#0040df
@@ -30,8 +52,16 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
-.card{
-    background-color: #f2f2f2;
+
+.Overview {
+    max-width: 500px;
+    border-radius: 5px;
+    display: block;
+    box-shadow:rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    max-width: 150px;
 }
