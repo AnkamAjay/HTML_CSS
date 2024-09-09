@@ -205,3 +205,85 @@ footer {
 .hex:nth-child(even) {
     transform: translateY(-40px);
 }
+
+/* Basic styling */
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: white; /* Icon color */
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    text-align: center;
+    background-color: #333; /* Default background */
+}
+
+/* Hover Effects */
+.social-icons a:hover {
+    transform: scale(1.1); /* Slight scale on hover */
+}
+
+.social-icons .facebook {
+    background-color: #3b5998;
+}
+
+.social-icons .facebook:hover {
+    background-color: #29487d;
+}
+
+.social-icons .linkedin {
+    background-color: #0077B5;
+}
+
+.social-icons .linkedin:hover {
+    background-color: #046293;
+}
+
+.social-icons .instagram {
+    background-color: #e4405f;
+}
+
+.social-icons .instagram:hover {
+    background-color: #c13584;
+}
+
+/* Center the Font Awesome icons */
+.social-icons a i {
+    line-height: inherit;
+    font-size: 20px;
+    color: white; /* Icon color */
+}
+/* Video Section Styles */
+.video-section {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f9f9f9; /* Optional background color */
+}
+
+.video-heading {
+    color: #007bff; /* Blue color for the heading */
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+}
+
+.video-container iframe {
+    width: 1000px; /* Fixed width */
+    height: 600px; /* Increased height */
+    border: none;
+}
+
